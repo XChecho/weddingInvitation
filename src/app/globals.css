@@ -4,13 +4,14 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #FDF9F7;
+  --font-koh-santepheap: var(--font-koh-santepheap);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #FDF9F7;
+    --foreground: #F1F1F1;
   }
 }
 
@@ -18,4 +19,15 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .mask-imgs {
+    -webkit-mask-image: url('/masks/mask.svg');
+    mask-image: url('/masks/mask.svg');
+     -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+  }
 }

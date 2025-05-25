@@ -9,9 +9,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        almostBlack: "#1A1A1A",
+        almostWhite: "#F1F1F1",
+        lightBrown: "#B69987",
+        midleBrown: "#939487",
+        whiteBrown: "#FDF9F7",
       },
+      fontFamily: {
+        koh: ['var(--font-koh-santepheap)'],
+        itali: ['var(--font-italianno)'],
+        tangerine: ['var(--font-tangerine)'],
+        noto: ['var(--font-noto-serif)'],
+      },
+      boxShadow: {
+        cardShadow: "0px 4px 8px 0px rgba(0, 0, 0, 0.5)"
+      },
+      backgroundImage: {
+        bgAlliance: "url('src/assets/background/allianceBg.webp')",
+      }
     },
   },
   plugins: [],

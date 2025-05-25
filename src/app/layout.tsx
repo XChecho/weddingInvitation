@@ -1,16 +1,42 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {Koh_Santepheap, Italianno, Tangerine, Noto_Serif } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const koh_Santepheap = Koh_Santepheap({
+  variable: "--font-koh-santepheap",
+  style: "normal",
   subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  display: "swap",
+  preload: true,
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const noto_Serif = Noto_Serif({
+  variable: "--font-noto-serif",
+  style: "normal",
   subsets: ["latin"],
+  weight: ["300","400", "500", "700"],
+  display: "swap",
+  preload: true,
 });
+
+const italianno = Italianno({
+  variable: "--font-italianno",
+  style: "normal",
+  subsets: ["latin"],
+  weight: ["400"],
+  display: "swap",
+  preload: true,
+})
+
+const tangerine = Tangerine({
+  variable: "--font-tangerine",
+  style: "normal",
+  subsets: ["latin"],
+  weight: ["400"],
+  display: "swap",
+  preload: true,
+})
 
 export const metadata: Metadata = {
   title: "Nos casamos, Carolina y Victor",
@@ -25,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${koh_Santepheap.variable} ${italianno.variable} ${tangerine.variable} ${noto_Serif.variable}`}
       >
         {children}
       </body>

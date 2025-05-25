@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Koh_Santepheap';
+  src: './KohSantepheap-Light.ttf' format('truetype');
+  font-weight: 300; /* Peso Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Koh_Santepheap';
+  src: './KohSantepheap-Regular.ttf' format('truetype');
+  font-weight: 400; /* Peso Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Koh_Santepheap';
+  src: './KohSantepheap-Bold.ttf' format('truetype');
+  font-weight: 700; /* Peso Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Italianno';
+  src: './Italianno-Regular.ttf' format('truetype');
+  font-weight: 400; /* Peso Regular */
+  font-style: normal;
+}
