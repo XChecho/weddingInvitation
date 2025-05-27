@@ -18,7 +18,7 @@ export default function EventsDetail() {
   return (
     <section className='relative w-full mt-20 flex flex-col items-center pb-10'>
       <div className='absolute top-48 w-full flex justify-start'>
-          <div className='relative w-[150px] h-[270px]'>
+          <div className='relative w-[100px] sm:w-[150px] h-[150px] sm:h-[270px]'>
             <Image
               src={rama}
               alt='rama'
@@ -29,7 +29,7 @@ export default function EventsDetail() {
         </div>
       <div className='relative w-full flex flex-col items-center z-10'>
         <Image src={iglesia} alt='rama' width={58} height={58} />
-        <p>Ceremonia</p>
+        <p className='mt-4 text-center font-itali uppercase font-normal text-5xl text-lightBrown'>Ceremonia</p>
         <p className='text-center font-cormorant uppercase font-normal text-2xl text-almostBlack/80'>Iglesia Divina Misericordia <br/> Vía Canelon <br/> Camino entrada a veredea la Fagua. <br/> Chia - Cundinamarca</p>
         <Link href={linkPlace} target='_blank' className='w-[220px] h-12 bg-lightBrown flex items-center justify-center mt-4 rounded-full'> 
           <p className='font-cormorant font-normal text-xl text-whiteBrown uppercase'>Click Ubicación</p>
@@ -37,7 +37,7 @@ export default function EventsDetail() {
       </div>
       <div className='w-full flex flex-col items-center mt-20'>
         <Image src={coupes} alt='rama' width={58} height={58} />
-        <p>Recepción</p>
+        <p className='mt-4 text-center font-itali uppercase font-normal text-5xl text-lightBrown'>Recepción</p>
         <p className='text-center font-cormorant uppercase font-normal text-2xl text-almostBlack/80'>Casa Tibana <br/> Via charrascal chia</p>
         <Link href={linkCoupes} target='_blank' className='w-[220px] h-12 bg-lightBrown flex items-center justify-center mt-4 rounded-full'> 
           <p className='font-cormorant font-normal text-xl text-whiteBrown uppercase'>Click Ubicación</p>
