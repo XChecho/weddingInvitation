@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #FDF9F7;
+  --background: #F6F3F0;
+  --foreground: #000000;
   --font-koh-santepheap: var(--font-koh-santepheap);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #FDF9F7;
-    --foreground: #F1F1F1;
+    --background: #F6F3F0;
+    --foreground: #000000;
   }
 }
 

@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
-import {Koh_Santepheap, Italianno, Tangerine, Noto_Serif } from "next/font/google";
+import { Italianno, Tangerine, Noto_Serif, Cormorant_Garamond, Koh_Santepheap } from "next/font/google";
 import "./globals.css";
 
-const koh_Santepheap = Koh_Santepheap({
-  variable: "--font-koh-santepheap",
+
+const noto_Serif = Noto_Serif({
+  variable: "--font-noto-serif",
   style: "normal",
   subsets: ["latin"],
-  weight: ["300", "400", "700"],
+  weight: ["300","400", "500", "700"],
   display: "swap",
   preload: true,
 });
 
-const noto_Serif = Noto_Serif({
-  variable: "--font-noto-serif",
+const cormorant_Garamond = Cormorant_Garamond({
+  variable: "--font-cormorant-garamond",
   style: "normal",
   subsets: ["latin"],
   weight: ["300","400", "500", "700"],
@@ -38,6 +39,15 @@ const tangerine = Tangerine({
   preload: true,
 })
 
+const koh_Santepheap = Koh_Santepheap({
+  variable: "--font-koh-santepheap",
+  style: "normal",
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  display: "swap",
+  preload: true,
+})
+
 export const metadata: Metadata = {
   title: "Nos casamos, Carolina y Victor",
   description: "Te invitamos al día más especial de nuestra vida, nuestro matrimonio. Separa tu fecha el próximo 26 de Julio del 2025.",
@@ -51,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${koh_Santepheap.variable} ${italianno.variable} ${tangerine.variable} ${noto_Serif.variable}`}
+        className={`${italianno.variable} ${tangerine.variable} ${noto_Serif.variable} ${cormorant_Garamond.variable} ${koh_Santepheap.variable}`}
       >
         {children}
       </body>

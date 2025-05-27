@@ -11,15 +11,16 @@ export default {
       colors: {
         almostBlack: "#1A1A1A",
         almostWhite: "#F1F1F1",
-        lightBrown: "#B69987",
+        lightBrown: "#926B07",
         midleBrown: "#939487",
-        whiteBrown: "#FDF9F7",
+        whiteBrown: "#F6F3F0",
       },
       fontFamily: {
-        koh: ['var(--font-koh-santepheap)'],
         itali: ['var(--font-italianno)'],
         tangerine: ['var(--font-tangerine)'],
         noto: ['var(--font-noto-serif)'],
+        koh: ['var(--font-koh-santepheap)'],
+        cormorant: ['var(--font-cormorant-garamond)'],
       },
       boxShadow: {
         cardShadow: "0px 4px 8px 0px rgba(0, 0, 0, 0.5)"
