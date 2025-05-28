@@ -1,16 +1,6 @@
 import type { Metadata } from "next";
-import { Italianno, Tangerine, Noto_Serif, Cormorant_Garamond, Koh_Santepheap } from "next/font/google";
+import { Italianno, Cormorant_Garamond, Koh_Santepheap, Allura } from "next/font/google";
 import "./globals.css";
-
-
-const noto_Serif = Noto_Serif({
-  variable: "--font-noto-serif",
-  style: "normal",
-  subsets: ["latin"],
-  weight: ["300","400", "500", "700"],
-  display: "swap",
-  preload: true,
-});
 
 const cormorant_Garamond = Cormorant_Garamond({
   variable: "--font-cormorant-garamond",
@@ -30,20 +20,20 @@ const italianno = Italianno({
   preload: true,
 })
 
-const tangerine = Tangerine({
-  variable: "--font-tangerine",
-  style: "normal",
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-  preload: true,
-})
-
 const koh_Santepheap = Koh_Santepheap({
   variable: "--font-koh-santepheap",
   style: "normal",
   subsets: ["latin"],
   weight: ["300", "400", "700"],
+  display: "swap",
+  preload: true,
+})
+
+const allura = Allura({
+  variable: "--font-allura",
+  style: "normal",
+  subsets: ["latin"],
+  weight: ["400"],
   display: "swap",
   preload: true,
 })
@@ -61,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${italianno.variable} ${tangerine.variable} ${noto_Serif.variable} ${cormorant_Garamond.variable} ${koh_Santepheap.variable}`}
+        className={`${italianno.variable} ${cormorant_Garamond.variable} ${koh_Santepheap.variable} ${allura.variable}`}
       >
         {children}
       </body>

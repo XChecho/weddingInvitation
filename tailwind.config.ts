@@ -16,9 +16,8 @@ export default {
         whiteBrown: "#F6F3F0",
       },
       fontFamily: {
+        allura: ['var(--font-allura)'],
         itali: ['var(--font-italianno)'],
-        tangerine: ['var(--font-tangerine)'],
-        noto: ['var(--font-noto-serif)'],
         koh: ['var(--font-koh-santepheap)'],
         cormorant: ['var(--font-cormorant-garamond)'],
       },

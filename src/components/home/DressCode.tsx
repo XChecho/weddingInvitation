@@ -11,10 +11,10 @@ import vestido from '@/assets/decoration/vestido.png'
 
 export default function DressCode() {
 
-  const linkWP = 'https://wa.link/jmehih'
+  const linkWP = 'https://wa.link/ml0b74'
   return (
     <section className='relative w-full flex flex-col items-center'>
-      <div className='absolute top-[480px] w-full flex justify-start z-0'>
+      <div className='absolute top-[800px] w-full flex justify-start z-0'>
           <div className='relative w-[100px] sm:w-[150px] h-[150px] sm:h-[270px]'>
             <Image
               src={rama}
@@ -24,7 +24,7 @@ export default function DressCode() {
             />
           </div>
         </div>
-        <div className='absolute w-full flex justify-end -top-20'>
+        <div className='absolute w-full flex justify-end top-12'>
           <div className='relative w-[100px] sm:w-[150px] h-[150px] sm:h-[270px]'>
             <Image
               src={rama}
@@ -35,7 +35,7 @@ export default function DressCode() {
           </div>
         </div>
       <div className='relative w-full flex flex-col items-center z-10'>
-        <p className='mt-4 text-center font-itali uppercase font-normal text-5xl text-lightBrown'>Dress Code</p>
+        <p className='mt-4 text-center font-allura font-normal text-5xl text-lightBrown'>Dress Code</p>
         <p className='text-2xl text-almostBlack/80 font-cormorant font-light text-center uppercase mt-4'>Formal</p>
         <div className='w-full flex my-6'>
           <div className='w-1/2 flex flex-col items-center'>
@@ -49,11 +49,11 @@ export default function DressCode() {
             <p className='text-base text-almostBlack/80 font-cormorant font-light text-center uppercase'>Vestido Largo</p>
           </div>
         </div>
-        <p className='text-xl text-lightBrown font-cormorant font-light text-center uppercase '>Nos reservamos el color <br/> azul, blanco, beige y verde olivo </p>
+        <p className='text-xl text-lightBrown font-cormorant font-light text-center uppercase '>Nos reservamos el color <br/> azul en los hombres<br/> blanco, beige y verde olivo<br/> en las mujeres </p>
       </div>
-      <div className='relative w-full flex flex-col items-center mt-20 z-10'>
+      <div className='relative w-full flex flex-col items-center mt-12 z-10'>
         <p className='text-2xl text-almostBlack/80 font-cormorant font-light text-center uppercase'>Es importante para nosotros <br/> que estes presente en este día.<br/> Por eso no olvides</p>
-        <p className='mt-4 text-center font-itali uppercase font-normal text-5xl text-lightBrown'>Confirmar</p>
+        <p className='mt-4 text-center font-allura font-normal text-5xl text-lightBrown'>Confirmar</p>
         <p className='text-2xl text-almostBlack/80 font-cormorant font-light text-center uppercase mt-4'>Tu asistencia</p>
         <Link href={linkWP} target='_blank' className='w-[220px] h-12 bg-lightBrown flex items-center justify-center mt-4 rounded-full'> 
           <p className='font-cormorant font-normal text-xl text-whiteBrown uppercase'>Confirma aquí</p>

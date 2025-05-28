@@ -15,13 +15,13 @@ export default function MainView() {
           fill
         />
       </div>
-      <p className='absolute font-itali font-thin text-9xl text-almostBlack top-16 sm:top-28 left-1/2 -translate-x-1/2'>CV</p>
+      <p className='absolute font-allura font-thin text-9xl text-lightBrown top-16 sm:top-28 left-1/2 -translate-x-1/2'>CV</p>
       <h1 className='text-6xl text-lightBrown font-cormorant font-light text-center mt-12' >CAROLINA & VICTOR</h1>
       <p className='text-xl text-almostBlack/80 font-cormorant font-light text-center uppercase mt-12'>"Por encima de todo, vístanse de amor,<br/> que es el vínculo perfecto”."<br/>-Colosenses 3:14</p>
       <div className='w-full flex flex-col items-center'>
         <p className='text-2xl text-almostBlack/80 font-cormorant font-light text-center uppercase mt-12'>Sábado</p>
         <p className='text-8xl text-lightBrown font-koh font-light text-center uppercase'>26</p>
-        <p className='text-2xl text-almostBlack/80 font-cormorant font-light text-center uppercase'>Jul. <span className='font-koh'>25</span></p>
+        <p className='text-2xl text-almostBlack/80 font-cormorant font-light text-center uppercase'>Jul. <span className='font-koh'>2025</span></p>
         <div className='absolute w-full flex justify-end'>
           <div className='relative w-[100px] sm:w-[150px] h-[150px] sm:h-[270px]'>
             <Image

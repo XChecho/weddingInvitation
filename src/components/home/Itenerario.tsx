@@ -13,8 +13,8 @@ import llegadanovios from '@/assets/decoration/llegadanovios.png'
 
 export default function Itenerario() {
   return (
-    <div className='w-full flex flex-col items-center mt-20'>
-        <p className='text-center font-itali uppercase font-normal text-5xl text-lightBrown'>Itinerario</p>
+    <div className='w-full flex flex-col items-center mt-16'>
+        <p className='text-center font-allura font-normal text-6xl text-lightBrown'>Itinerario</p>
         <div className='relative w-full flex'>
           <div className='absolute w-10/12 h-1 bg-lightBrown rounded-full top-[150px] left-[10%] sm:left-20' />
           <div className='absolute w-6 h-6 bg-lightBrown rounded-full top-[140px] left-[10%] sm:left-[60px]' />
@@ -27,7 +27,7 @@ export default function Itenerario() {
             </div>
             <div className='w-full flex flex-col items-center'>
               <Image src={arrivar} alt='arrivar' width={40} height={40} />
-              <p className='text-center font-cormorant uppercase font-normal text-lg text-almostBlack/80'>Llegada Familia</p>
+              <p className='text-center font-cormorant uppercase font-normal text-lg text-almostBlack/80'>Llegada Invitados</p>
             </div>
           </div>
           <div className='w-1/4 flex flex-col space-y-12'>
