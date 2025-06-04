@@ -2,9 +2,6 @@ import DressCode from "@/components/home/DressCode";
 import EventsDetail from "@/components/home/EventsDetail";
 import MainView from "@/components/home/MainView";
 
-
-
-
 export default function Home() {
   return (
     <div className="w-full h-full flex justify-center bg-whiteBrown px-4 sm:px-0">

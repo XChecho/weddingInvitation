@@ -11,7 +11,7 @@ import vestido from '@/assets/decoration/vestido.png'
 
 export default function DressCode() {
 
-  const linkWP = 'https://wa.link/ml0b74'
+  const linkWP = 'https://wa.link/py7yv3'
   return (
     <section className='relative w-full flex flex-col items-center'>
       <div className='absolute top-[800px] w-full flex justify-start z-0'>
